@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Proza+Libre:400,500,600,700|Raleway:300,400,500,600,700&display=swap');
+font-family: 'Raleway', sans-serif;
+font-family: 'Proza Libre', sans-serif;
+font-family: 'Merriweather', serif;
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+ul,ol
+{
+	list-style: none;
+}
+
+
+/*-----------------------header-area start-------------------*/
+
+
+section#header-area 
+{
+    position: fixed;
+    width:100%;
+    top: 0;
+    background: #0069ff;
+    z-index: 10;
+}
+#header-area img
+{
+	height: 46.64px;
+	width: 193px;
+}
+#header-area .navbar
+{
+	padding: 5px 50px;
+	background: #0069ff;
+}
+#header-area a.nav-link {
+    padding: 10.5px 22px!important;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: raleway,sans-serif;
+    transition: all linear 0.3s;
+}
+#header-area a.nav-link:hover
+{
+	color: #333;
+}
+#header-area button.btn.seventh-btn
+{
+    background-color: #FED200;
+    color: #000;
+    color: black!important;
+    border-radius: 100px;
+    padding: 5px 20px!important;
+    font-weight: bold;
+    margin: 5px auto 0;
+    width: 213px;
+    text-decoration: none;
+}
+#header-area .em-btn-wrapper:hover a
+{
+    color: #ffffff;
+} 
+
+#header-area .em-btn-wrapper a
+
+{
+  color: black!important
+}
+#header-area li.nav-item.em-btn-wrapper {
+    padding-left: 12px;
+}
+#header-area i
+{
+	font-size: 30px;
+	color: #f9cd00;
+}
+
+
+/*-----------------------header-area end-------------------*/
+
+
+/*-----------------------banner-area start-------------------*/
+
+
+
+#banner-area
+{
+	background: #0069ff;
+	z-index: 1;
+}
+#banner-area h1
+{
+	font-size: 50px!important;
+	color: #ffffff;
+	font-family: 'Proza Libre', sans-serif;
+	padding-top: 112px!important;
+	font-weight: 700;
+}
+#banner-area p
+{
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+	padding: 20px 0 10px 0!important;
+}
+#banner-area .btn {
+    color: #000000!important;
+    border-width: 0px!important;
+    border-radius: 100px!important;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: #FDD201;
+    margin-bottom: 80px!important;
+        font-weight: 500;
+
+}
+/*-----------------------banner-area end-------------------*/
+
+/*-----------------------testimonial-area start-------------------*/
+#testimonial-area
+{
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+#testimonial-area h2
+{
+	font-size: 50px!important;
+	font-family: 'Proza Libre', sans-serif;
+	font-weight: 700;
+	padding-top: 40px;
+	margin-bottom: 60px;
+	color: #000!important;
+}
+#testimonial-area .content1 p
+{
+    font-size: 18px;
+    color: #1a1a1a;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 16px!important;
+    margin-bottom:0!important;
+    font-weight: 500;
+}
+#testimonial-area .content1 span
+{
+    font-size: 18px;
+    color: #1A1A1A;
+    font-family: 'Merriweather', serif;
+    margin-top:16px!important;
+    font-weight: 700;
+}
+#testimonial-area .content1 .spcolor
+{
+	font-size: 18px;
+    color: #1a1a1a;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 16px!important;
+    margin-bottom:0!important;
+    font-weight: 500; 
+}
+#testimonial-area .content1
+{
+    background:#f5f5f5;
+    padding: 35px;
+}
+p.effect::before 
+{
+    content: "\f10e";
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Free';    
+    font-size: 18px;
+    left: 50%;
+    position: absolute;
+    top: -24px;
+    display: block;
+    background: #f5f5f5;
+    height: 44px;
+    width: 44px;
+    padding: 9px 0 0 8px!important;
+    margin-left: -16px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+/*-----------------------testimonial-area end-------------------*/
+
+/*-----------------------work-area start-------------------*/
+
+#work-area
+{
+	background: url(../images/img1.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#work-area .overlay
+{
+    background: rgba(0,0,0,0.5);
+    padding-bottom: 50px;
+}
+#work-area img
+{
+	height: 137px;
+	width: 137px;
+}
+#work-area h2
+{
+	font-family: 'Proza Libre',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff!important;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+#work-area p
+{
+	font-weight: 500;
+	font-size: 18px;
+	font-family:'Raleway', sans-serif;
+	color: #ffffff;
+	padding-bottom: 20px; 
+}
+#work-area .btn-third 
+{
+    border-width: 0px!important;
+    border-radius: 100px!important;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: #FDD201;
+    padding: 8px 12px!important;
+        font-weight: 500;
+        display: inline-block;
+
+}
+#work-area .btn-third a
+{
+	    color: black!important;
+	    text-decoration: none;
+
+}
+.third-btn:hover
+{
+    color: #ffffff!important;
+}
+
+
+/*-----------------------work-area end-------------------*/
+
+/*-----------------------dispute-area end-------------------*/
+#dispute-area 
+{
+	padding-bottom: 60px;
+}
+#dispute-area img
+{
+	height: 137px;
+	width: 137px;
+}
+#dispute-area h2
+{
+	font-family: 'Proza Libre',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: black!important;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+#dispute-area h4
+{
+	font-family: 'Proza Libre',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: black!important;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+#dispute-area .btn-fourth 
+{
+    color: #000000!important;
+    border-width: 0px!important;
+    border-radius: 100px!important;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: #FDD201;
+    padding: 8px 12px!important;
+    font-weight: 500;
+            display: inline-block;
+
+}
+#dispute-area .btn-fourth a
+{
+	color: black!important;
+		    text-decoration: none;
+
+}
+/*-----------------------dispute-area end-------------------*/
+
+/*-----------------------Guarantee-area start-------------------*/
+
+#Guarantee-area img
+{
+	height: 277px;
+	width: 277px;
+}
+#Guarantee-area 
+{
+	background:  #0069ff;
+	padding-bottom: 60px;
+	padding-top: 80px;
+
+}
+#Guarantee-area h2
+{
+	font-family: 'Proza Libre',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff!important;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+#Guarantee-area p
+{
+	font-weight: 500;
+	font-size: 18px;
+	font-family:'Raleway', sans-serif;
+	color: #ffffff;
+	padding-bottom: 20px; 
+}
+#Guarantee-area .btn-fifth 
+{
+    color: #000000!important;
+    border-width: 0px!important;
+    border-radius: 100px!important;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: #FDD201;
+    padding: 8px 12px!important;
+    font-weight: 500;
+            display: inline-block;
+
+}
+#Guarantee-area .btn-fifth a 
+{
+	color: black!important;
+		    text-decoration: none;
+
+}
+/*-----------------------Guarantee-area end-------------------*/
+
+/*-----------------------question-area end-------------------*/
+
+#question-area
+{
+	background: url(../images/img12.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#question-area h2
+{
+	font-family: 'Proza Libre',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff!important;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+#question-area h3
+{
+	font-family: 'Proza Libre',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff!important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#question-area p
+{
+	font-weight: 500;
+	font-size: 18px;
+	font-family:'Raleway', sans-serif;
+	color: #ffffff;
+	padding-bottom: 10px; 
+}
+#question-area .btn-sixth 
+{
+    color: #000000!important;
+    border-width: 0px!important;
+    border-radius: 100px!important;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: #FDD201;
+    padding: 8px 12px!important;
+    font-weight: 500;
+            display: inline-block;
+
+}
+#question-area .btn-sixth  a
+{
+	color: black!important;
+		    text-decoration: none;
+
+}
+#question-area .a-pd-20
+{
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+/*-----------------------question-area end-------------------*/
+
+/*-----------------------footer-area start-------------------*/
+
+#footer-area 
+{
+	background: #0069ff;
+	padding-bottom: 30px;
+}
+#footer-area h2
+{
+	font-family: 'Proza Libre',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff!important;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+#footer-area .btn-seventh 
+{
+    color: #000000!important;
+    border-width: 0px!important;
+    border-radius: 100px!important;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: #FDD201;
+    padding: 8px 12px!important;
+    font-weight: 500;
+            display: inline-block;
+
+}
+#footer-area .btn-seventh a
+{
+	color: black!important;
+		    text-decoration: none;
+
+}
+button.btn.seventh-btn {
+    font-weight: 600;
+    color: black!important;
+}
+#footer-area p
+{
+	font-weight: 500;
+	font-size: 18px;
+	font-family:'Raleway', sans-serif;
+	color: #ffffff;
+	padding-top: 5px; 
+}
+/*-----------------------footer-area end-------------------*/
+
+
+
+
+/*-----------------------modal-area start-------------------*/
+
+
+.modal-content {
+    background: #0069ff;
+}
+button#btnContactUs {
+    background: #FDD201;
+    color: black;
+    text-transform: uppercase;
+}
+.modal-body img {
+
+    padding: 30px 0 20px 76px;
+}
+.modal-body p {
+    /* text-align: center; */
+    color: #ffffff;
+    padding-left: 75px;
+}
+.modal-body {
+    padding-bottom: 40px;
+}
+/*-----------------------modal-area end-------------------*/
+
+
+
+
+
+
+/*-----------------------chatbox-area start-------------------*/
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #17539e;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.open-button i
+{
+	font-size: 30px;
+}
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+/*-----------------------chatbox-area end-------------------*/
+
+
+
+
+
+
+
+
+/*-----------------------media-area start-------------------*/
+
+
+
+
+@media screen and (max-width: 991.98px) 
+{
+	ul .navbar-nav .ml-auto 
+	{
+        text-align: center!important;
+    }
+    section#header-area ul 
+    {
+       text-align: center!important;
+    }
+    #testimonial-area .content1
+    {
+    	margin: 40px 0!important;
+    }
+    p.effect::before 
+    {
+    	top: 15px;
+    }
+    .content1 
+    {
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 575.98px) 
+{ 
+    section#header-area
+    {
+    	max-width: 100%!important;
+    }
+    #banner-area h1
+    {
+    	padding-top: 90px!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------media-area end-------------------*/
